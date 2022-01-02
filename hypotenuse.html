@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="icon"
+			href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/red-triangle-pointed-up_1f53a.png"
+		/>
+		<title>Hypotenuse</title>
+	</head>
+	<body>
+		<nav>
+			<a href="index.html">Is Triangle?</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="hypotenuse.html" class="item-active">Hypotenuse</a>
+			<a href="area.html">Area</a>
+		</nav>
+		<h1 class="heading">Check Hypotenuse</h1>
+		<h2 class="formula">Length of Hypotenuse = sqrt(a² + b²)</h2>
+		<div class="angle-container">
+			<div class="input-container">
+				<label for="a"
+					>a =
+					<input class="side-input" id="a" />
+				</label>
+			</div>
+			<div class="input-container">
+				<label for="b"
+					>b =
+					<input class="side-input" id="b" />
+				</label>
+			</div>
+			<button id="hypotenuse-btn" class="btn">Check Hypotenuse</button>
+		</div>
+		<h2 id="hypotenuse-output" class="output"></h2>
+		<script src="hypotenuse.js"></script>
+	</body>
+</html>
